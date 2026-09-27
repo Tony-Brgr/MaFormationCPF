@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom aesthetics & smooth styling */
+body {
+    background-color: #F7F5F0;
+    color: #121212;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.font-serif-title {
+    font-family: 'Cormorant Garamond', serif;
+}
+.glass-panel {
+    background: rgba(247, 245, 240, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.dark-glass {
+    background: rgba(18, 18, 18, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #F7F5F0;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #8A9A86;
+    border-radius: 4px;
+}
